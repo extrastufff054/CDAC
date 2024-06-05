@@ -1,6 +1,4 @@
-Here is the README organized in a more proper format:
-
-# QF-Lattice
+# Quantum Integer Factorization using Lattice Reduction and QAOA 
 
 ## Table of Contents
 1. [Project Description](#project-description)
@@ -30,7 +28,7 @@ QF-Lattice is a quantum algorithm for integer factorization using Babai's algori
 ### Setup
 1. Install the necessary dependencies:
    - Python
-    ```python
+    ```bash
     sudo apt-get install python3    #For linux
 
     # For Windows and Mac you can either use a package manager 
@@ -38,7 +36,13 @@ QF-Lattice is a quantum algorithm for integer factorization using Babai's algori
     # downloads page (https://www.python.org/downloads/) 
     ```
    - Qiskit
+   ```bash
+   pip install qiskit
+   ```
    - QAOA
+   ``` bash 
+   pip install openqaoa
+   ```
 
 2. Configure the project settings:
    - Set the number of qubits and the number of iterations for the QAOA.
@@ -73,6 +77,6 @@ The project is currently in development.
 - [QAOA](https://en.wikipedia.org/wiki/Quantum_Approximate_Optimization_Algorithm)
 
 ## Other Information
-- How to Contribute: [Contributing Guide](https://github.com/your-username/QF-Lattice/blob/master/CONTRIBUTING.md)
+- How to Contribute: [Contributing Guide](https://github.com/your-username/QF-Lattice/CONTRIBUTING.md)
 - Report Issues: [Issue Tracker](https://github.com/extrastufff054/CDAC/issues)
 
