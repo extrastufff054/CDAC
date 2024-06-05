@@ -77,6 +77,6 @@ The project is currently in development.
 - [QAOA](https://en.wikipedia.org/wiki/Quantum_Approximate_Optimization_Algorithm)
 
 ## Other Information
-- How to Contribute: [Contributing Guide](https://github.com/your-username/QF-Lattice/CONTRIBUTING.md)
+- How to Contribute: [Contributing Guide](https://github.com/extrastufff054/CDAC/blob/main/QF_Lattice/CONTRIBUTING.md)
 - Report Issues: [Issue Tracker](https://github.com/extrastufff054/CDAC/issues)
 
