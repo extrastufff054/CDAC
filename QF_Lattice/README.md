@@ -74,5 +74,5 @@ The project is currently in development.
 
 ## Other Information
 - How to Contribute: [Contributing Guide](https://github.com/your-username/QF-Lattice/blob/master/CONTRIBUTING.md)
-- Report Issues: [Issue Tracker](https://github.com/extrastufff054/CDAC/tree/main/QF_Lattice)
+- Report Issues: [Issue Tracker](https://github.com/extrastufff054/CDAC/issues)
 
