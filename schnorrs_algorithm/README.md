@@ -28,5 +28,32 @@
     You can download MPFR from https://www.mpfr.org/mpfr-current/mpfr-4.2.1.tar.xz or the official website (https://www.mpfr.org/)
 
     
+    * The MPFR library is already installed on some GNU/Linux distributions, but the development files necessary to the compilation such as ```mpfr.h``` are not always present. 
+    * To check that MPFR is fully installed on your computer, you can check the presence of the file mpfr.h in /usr/include, or try to compile a small program having ```#include <mpfr.h>``` (since mpfr.h may be installed somewhere else). 
+    * For instance, you can try to compile:
+        ```
+        #include <stdio.h>
+        #include <mpfr.h>
+        int main (void)
+        {
+        printf ("MPFR library: %-12s\nMPFR header:  %s (based on %d.%d.%d)\n",
+                mpfr_get_version (), MPFR_VERSION_STRING, MPFR_VERSION_MAJOR,
+                MPFR_VERSION_MINOR, MPFR_VERSION_PATCHLEVEL);
+        return 0;
+        }
+        ```
+        with
+
+        ```
+        cc -o version version.c -lmpfr -lgmp
+        ```
+        and if you get errors whose first line looks like
+
+        version.c:2:19: error: mpfr.h: No such file or directory
+        then MPFR is probably not installed. Running this program will give you the MPFR version.
+
+    * If MPFR is not installed on your computer, or if you want to install a different version, please follow the steps same as in GMP.
+
+
 3. <b>QD</b> :
 4. <b>fplll</b> :
