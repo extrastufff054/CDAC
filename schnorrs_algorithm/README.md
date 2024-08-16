@@ -1,6 +1,8 @@
 # Packages required : 
 1. <b>GMP or MPIR : </b> (I've used GMP) 
 
+    For arbitrary precision integer arithmetic.
+
     You can download the tar.xz file from  https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz or the official website (https://gmplib.org/)
 
     * Installing GMP
@@ -24,6 +26,8 @@
         ```
 
 2. <b> MPFR </b> :
+
+    For arbitrary precision floating point arithmetic.
     
     You can download MPFR from https://www.mpfr.org/mpfr-current/mpfr-4.2.1.tar.xz or the official website (https://www.mpfr.org/)
 
@@ -56,4 +60,15 @@
 
 
 3. <b>QD</b> :
+
+    For double double and quad double arithmetic (optional).
+
+    You can download it from here https://www.davidhbailey.com/dhbsoftware/qd-2.3.24.tar.gz or the official website (https://www.davidhbailey.com/dhbsoftware/)
+
 4. <b>fplll</b> :
+
+    For pretty much everything.
+
+    You can follow the installation guide on fplll on the repository
+    https://github.com/fplll/fplll?tab=readme-ov-file#Installation-from-packages
+
