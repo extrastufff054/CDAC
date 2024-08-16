@@ -1,4 +1,10 @@
 # Packages required : 
+
+Installation of ```fpylll``` can be only done after installing the below packages. 
+
+fpylll can be installed using ```pip install fpylll```.
+
+Note : fpylll may not work even after following the below steps.
 1. <b>GMP or MPIR : </b> (I've used GMP) 
 
     For arbitrary precision integer arithmetic.
@@ -72,3 +78,26 @@
     You can follow the installation guide on fplll on the repository
     https://github.com/fplll/fplll?tab=readme-ov-file#Installation-from-packages
 
+### fpylll also relies on
+
+* <b>Cython</b> : 
+
+    For linking Python and C/C++.
+    
+    Installation : http://cython.org/ or https://pypi.org/project/Cython/
+
+* <b>cysignals </b> : 
+
+    For signal handling such as interrupting C++ code.
+
+    Installation : https://github.com/sagemath/cysignals or https://pypi.org/project/cysignals/
+
+* <b>py.test </b>
+
+    For testing Python.
+
+    Installation : https://pytest.org/en/7.4.x/getting-started.html
+ 
+* <b>flake8 </b>
+
+    For linting.
